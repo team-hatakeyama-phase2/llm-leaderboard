@@ -43,7 +43,7 @@ configファイルを作成します。configs/config.yamlの設定が評価に�
 cp configs/alpaca-format-gpt4o.yaml configs/config.yaml
 ```
 2. 以下の項目を編集します。
-```# run_nameの編集
+```# projectとrun_nameの編集
 wandb:
   log: True
   entity: "weblab-geniac1" # たぬきチームはweblab-geniac1
