@@ -1,5 +1,5 @@
 ﻿# Nejumi-leaderboard Neo for Tanuki
-gpt-4o対応のNejumi-leaderboard Neoです。
+gpt-4o評価対応のNejumi-leaderboard Neoです。
 
 ## Set up
 1. condaで仮想環境を作成します。
