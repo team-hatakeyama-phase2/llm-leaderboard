@@ -48,7 +48,7 @@ wandb:
   log: True
   entity: "weblab-geniac1" # たぬきチームはweblab-geniac1
   project: "leaderboard_test" # SFT検証の場合leaderboard_sft, テスト用はleaderboard_test
-  run_name: 'YOUR_RUN_NAME' # 学習時のwandb_nameを記載 e.g. 04_hallucination-tanuki_8B_lora-with_hallucination
+  run_name: 'YOUR_RUN_NAME' # 学習時のproject_name+wandb_nameを記載 e.g. 04_hallucination-tanuki_8B_lora-with_hallucination
 
 # pretrained_model_name_or_pathの編集
 model:
@@ -60,7 +60,7 @@ tokenizer:
 
 # basemodel_nameの編集
 metainfo:
-  basemodel_name: "YOUR_RUN_NAME" # # 学習時のwandb_nameを記載 e.g. 04_hallucination-tanuki_8B_lora-with_hallucination
+  basemodel_name: "YOUR_RUN_NAME" # # 学習時のproject_name+wandb_nameを記載 e.g. 04_hallucination-tanuki_8B_lora-with_hallucination
 
 # judge_modelの編集（変更する場合）
 mtbench:
